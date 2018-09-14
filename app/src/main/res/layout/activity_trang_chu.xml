@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/backgroundcolortrangchu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/dotham"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+        <ImageView
+            android:src="@drawable/chuf"
+            android:scaleType="fitXY"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <RadioGroup
+            android:id="@+id/group_odau_angi"
+            android:background="@drawable/custom_radiobuttongroup_trangchu"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:textColor="@drawable/changetextradio_trangchu"
+                android:id="@+id/rd_odau"
+                android:checked="true"
+                android:padding="10dp"
+                android:background="@drawable/custom_radio_odau"
+                android:button="@android:color/transparent"
+                android:text="Ở đâu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:textColor="@drawable/changetextradio_trangchu"
+                android:id="@+id/rd_angi"
+                android:padding="10dp"
+                android:background="@drawable/custom_radio_angi"
+                android:button="@android:color/transparent"
+                android:text="Ăn gì"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_add_white_24dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+    </android.support.v7.widget.Toolbar>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpaper_trangchu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

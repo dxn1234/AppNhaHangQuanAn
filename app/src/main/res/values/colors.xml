@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#b60f0f</color>
+    <color name="colorAccent">#fff</color>
+    <color name="dotham">#b60f0f</color>
+    <color name="transparentbackgrounddangnhap">#E6b60f0f</color>
+    <color name="backgroundcolortrangchu">#CCC</color>
+    <color name="maunau">#3e3838</color>
+    <color name="mauxanh">#1ea637</color>
+</resources>

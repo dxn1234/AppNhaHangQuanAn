@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppFoody</string>
+    <string name="moinhat">Mới nhất</string>
+    <string name="danhmuc">Danh mục</string>
+    <string name="khuvuc">Hồ Chí Minh</string>
+    <string name="gantoi">Gần tôi</string>
+    <string name="giaohang">Giao hàng</string>
+    <string name="danhgia">Đánh giá</string>
+    <string name="blogs">Blogs</string>
+    <string name="topmember">Top thành viên</string>
+</resources>

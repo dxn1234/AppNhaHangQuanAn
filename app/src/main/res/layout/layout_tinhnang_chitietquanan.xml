@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:background="@color/backgroundcolortrangchu"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/khungtienich"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <Button
+        android:textColor="@android:color/white"
+        android:background="@color/dotham"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_chiduong"
+        android:textAllCaps="false"
+        android:text="Chỉ đường"
+        android:layout_width="120dp"
+        android:layout_height="40dp" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logodangnhap"
+    android:layout_height="match_parent"
+    tools:context=".activity.KhoiPhucMatKhauActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/transparentbackgrounddangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="140dp"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:text="Khôi phục mật khẩu"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:text="Bạn vui lòng nhập địa chỉ Email vào khung bên dưới để khôi phục mật khẩu!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:id="@+id/edt_emailKp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_guiemailKp"
+            android:paddingRight="60dp"
+            android:paddingLeft="60dp"
+            android:textAllCaps="false"
+            android:text="Gửi email"
+            android:textColor="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/ic_exit"
+            android:background="@drawable/radius_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</RelativeLayout>
